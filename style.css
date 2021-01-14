@@ -26,7 +26,7 @@
      background-color:#FFF9F4 !important ;
  }
   
- 
+
  .image-background{
      background-color: #F1F1F1;
      margin: 5%;
@@ -80,6 +80,14 @@ border-radius: 15px;
         grid-gap:20px;
     }
 }
+@media (max-width:668px){
+    .featured-product{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:20px;
+    }
+}
+
 
      
  
